@@ -55,15 +55,6 @@
     }
 }
 
-- (void)scrollCannotScroll{
-    
-    [_scrollView setContentOffset:CGPointZero];
-}
-
-- (void)scrollCanScroll{
-    
-}
-
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     if (!_canScroll) {//不允许底部视图滑动
         if (scrollView.contentOffset.y>0) {

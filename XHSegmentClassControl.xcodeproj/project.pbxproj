@@ -15,7 +15,6 @@
 		2D02EC6A1F835C3A003ED03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D02EC681F835C3A003ED03D /* LaunchScreen.storyboard */; };
 		2D02EC751F835C3A003ED03D /* XHSegmentClassControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC741F835C3A003ED03D /* XHSegmentClassControlTests.m */; };
 		2D02EC801F835C3A003ED03D /* XHSegmentClassControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC7F1F835C3A003ED03D /* XHSegmentClassControlUITests.m */; };
-		2D02ECA01F835C91003ED03D /* NXHomePageClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC8F1F835C91003ED03D /* NXHomePageClassViewController.m */; };
 		2D02ECA11F835C91003ED03D /* NXSegmentClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC911F835C91003ED03D /* NXSegmentClassView.m */; };
 		2D02ECA21F835C91003ED03D /* NXSegmentTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC941F835C91003ED03D /* NXSegmentTopScrollView.m */; };
 		2D02ECA31F835C91003ED03D /* NXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC961F835C91003ED03D /* NXTableView.m */; };
@@ -548,7 +547,6 @@
 				2D02ECF31F8361D8003ED03D /* UIScrollView+MJExtension.m in Sources */,
 				2D02ECEC1F8361D8003ED03D /* MJRefreshBackStateFooter.m in Sources */,
 				2D02ECF11F8361D8003ED03D /* MJRefreshConst.m in Sources */,
-				2D02ECA01F835C91003ED03D /* NXHomePageClassViewController.m in Sources */,
 				2D02ECA51F835C91003ED03D /* NXHottestPostsViewController.m in Sources */,
 				2D02ECA21F835C91003ED03D /* NXSegmentTopScrollView.m in Sources */,
 			);

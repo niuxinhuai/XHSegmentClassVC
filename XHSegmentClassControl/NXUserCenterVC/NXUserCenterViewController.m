@@ -140,14 +140,14 @@ static NSString *const cellID = @"cellIdentifier";
         CGFloat tempContentOffsetY = scrollView.contentOffset.y;
 
         CGFloat tabOffsetY =  [self.mainTableView rectForSection:0].origin.y;
-        if (tempContentOffsetY<0) {
+        if (tempContentOffsetY<0) {// 偏移量小于0主视图不做偏移量变化，交给子视图进行处理
             [[NSNotificationCenter defaultCenter] postNotificationName:@"showRefresh" object:nil];
             
             [scrollView setContentOffset:CGPointZero];
             
         }
         _isTopIsCanNotMoveTabViewPre = _isTopIsCanNotMoveTabView;
-        if (tempContentOffsetY>=tabOffsetY) {
+        if (tempContentOffsetY>=tabOffsetY) {// 当前滑动的偏移量大于等于headerView的时候，父视图不做偏移量变化，固定偏移量
             
             scrollView.contentOffset = CGPointMake(0, tabOffsetY);
             _isTopIsCanNotMoveTabView = YES;
