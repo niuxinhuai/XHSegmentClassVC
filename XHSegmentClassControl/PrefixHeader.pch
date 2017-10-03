@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  XHSegmentClassControl
+//
+//  Created by 牛新怀 on 2017/10/3.
+//  Copyright © 2017年 牛新怀. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#import "UIView+Extension.h"
+#import "UIColor+HexColor.h"
+#import "MJRefresh.h"
+#endif /* PrefixHeader_pch */
