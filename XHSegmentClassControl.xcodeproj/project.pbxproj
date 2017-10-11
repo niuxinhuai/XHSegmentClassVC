@@ -46,6 +46,7 @@
 		2D02ECF41F8361D8003ED03D /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ECDD1F8361D8003ED03D /* UIScrollView+MJRefresh.m */; };
 		2D02ECF51F8361D8003ED03D /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ECDF1F8361D8003ED03D /* UIView+MJExtension.m */; };
 		2D02ECF61F8361D8003ED03D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2D02ECE01F8361D8003ED03D /* README.md */; };
+		2D02ECFC1F8DF437003ED03D /* NXHomePageClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D02EC8F1F835C91003ED03D /* NXHomePageClassViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -517,6 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D02ECFC1F8DF437003ED03D /* NXHomePageClassViewController.m in Sources */,
 				2D02ECA71F835C91003ED03D /* NXUserCenterViewController.m in Sources */,
 				2D02ECE81F8361D8003ED03D /* MJRefreshAutoNormalFooter.m in Sources */,
 				2D02ECE91F8361D8003ED03D /* MJRefreshAutoStateFooter.m in Sources */,
